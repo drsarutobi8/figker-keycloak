@@ -19,3 +19,5 @@ pluginManagement {
     id("com.palantir.docker") version palantirDockerVersion 
   }
 }
+
+rootProject.name = "figker-keycloak"
