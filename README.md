@@ -6,4 +6,4 @@ Figker's Docker Image for jboss/keycloak:latest to work with Figker MariaDB imag
 > gradle docker
 
 * To push to figker/figker-keycloak
-> gradle dockerPush
+> gradle dockerPush-latest
