@@ -3,7 +3,7 @@ FROM jboss/keycloak:latest
 USER root
 
 RUN mkdir -p /config/
-COPY --chown=jboss config/* /config/
+COPY --chown=jboss:jboss config/* /config/
 
 USER jboss
 WORKDIR /config/
